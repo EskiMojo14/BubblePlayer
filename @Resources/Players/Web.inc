@@ -2,6 +2,19 @@
 Measure=Plugin
 Plugin=WebNowPlaying
 
+[Cover]
+Measure=Plugin
+Plugin=WebNowPlaying
+PlayerType=Cover
+CoverPath=#@#CoverWeb.png
+UpdateDivider=10
+
+[CoverAbs]
+Measure=Plugin
+Plugin=WebNowPlaying
+PlayerType=CoverWebAddress
+Substitute="":"#@#images\nocover.png"
+
 [Track]
 Measure=Plugin
 Plugin=WebNowPlaying

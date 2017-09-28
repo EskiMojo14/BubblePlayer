@@ -4,6 +4,21 @@ Plugin=NowPlaying
 PlayerName=Spotify
 PlayerType=State
 
+[Cover]
+Measure=Plugin
+Plugin=SpotifyPlugin
+Type=AlbumArt
+Res=640
+CoverPath=#@#CoverSpotify.png
+
+[CoverAbs]
+Measure=Plugin
+Plugin=SpotifyPlugin
+Type=CoverPath
+DynamicVariables=1
+UpdateDivider=50
+Substitute="":"#@#images\nocover.png"
+
 [Track]
 Measure=Plugin
 Plugin=SpotifyPlugin
